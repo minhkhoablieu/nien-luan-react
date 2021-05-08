@@ -35,7 +35,7 @@ const BottomTabNavigator = () => {
         }}
       />
 
-      <Tab.Screen
+      {/* <Tab.Screen
         name="PlantHome"
         component={PlantHome}
         options={{
@@ -47,7 +47,7 @@ const BottomTabNavigator = () => {
             />
           ),
         }}
-      />
+      /> */}
     </Tab.Navigator>
   );
 };
